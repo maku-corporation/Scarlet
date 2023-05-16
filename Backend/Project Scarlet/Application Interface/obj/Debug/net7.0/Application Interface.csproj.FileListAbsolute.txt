@@ -1,0 +1,148 @@
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\CoverletSourceRootsMapping
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\Application Interface.csproj.AssemblyReference.cache
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\Application Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\Application Interface.AssemblyInfoInputs.cache
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\Application Interface.AssemblyInfo.cs
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\Application Interface.csproj.CoreCompileInputs.cache
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\Application Interface.MvcApplicationPartsAssemblyInfo.cs
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\Application Interface.MvcApplicationPartsAssemblyInfo.cache
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\testhost.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Domain.deps.json
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Domain.runtimeconfig.json
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\testhost.exe
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\App.config
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Application Interface.exe
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Application Interface.dll.config
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Application Interface.deps.json
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Application Interface.runtimeconfig.json
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Application Interface.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Application Interface.pdb
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.TestPlatform.Utilities.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\NuGet.Frameworks.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\RestSharp.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Domain.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Interfaces.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Models.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Domain.pdb
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Domain.dll.config
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Interfaces.pdb
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\bin\Debug\net7.0\Models.pdb
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\staticwebassets\msbuild.Application Interface.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\staticwebassets\msbuild.build.Application Interface.props
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Application Interface.props
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Application Interface.props
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\staticwebassets.build.json
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\staticwebassets.development.json
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\scopedcss\bundle\Application Interface.styles.css
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\Application Interface.csproj.CopyComplete
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\Application Interface.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\refint\Application Interface.dll
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\Application Interface.pdb
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\Application Interface.genruntimeconfig.cache
+C:\Source\Maku Liseleje\Backend\Project Scarlet\Application Interface\obj\Debug\net7.0\ref\Application Interface.dll

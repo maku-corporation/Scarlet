@@ -1,0 +1,20 @@
+Fields required in database:
+
+- Voucher Number (auto generate from last number created)
+- Issue Date (auto populate by date of creation)
+- Voucher Comments (this field may need to updated during issue or at a later date)
+
+- Value of Voucher/Service
+- Voucher Code (this should be a drop down list which we can easily pre-polulate)
+
+- Name of Voucher Recipient
+- Description of Voucher
+- Voucher Message
+
+- Person Issuing Voucher
+- Expiry Date (dd/mm/yy)
+- Payment Method (this should be a drop down list which we can easily pre-polulate)
+- Cashcard Ref
+- Purchasers Name & Address
+- Purchasers Email Address
+- Puchasers Telephone Number

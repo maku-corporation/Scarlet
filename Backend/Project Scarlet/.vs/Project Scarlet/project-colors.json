@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "eba5713a-6f0a-499c-a063-14818ef892f3": {
+      "ProjectGuid": "eba5713a-6f0a-499c-a063-14818ef892f3",
+      "DisplayName": "Blue Jay",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

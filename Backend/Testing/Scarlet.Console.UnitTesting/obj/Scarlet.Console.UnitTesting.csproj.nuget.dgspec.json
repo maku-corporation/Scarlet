@@ -1,0 +1,491 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Source\\Maku Liseleje\\Backend\\Testing\\Scarlet.Console.UnitTesting\\Scarlet.Console.UnitTesting.csproj": {}
+  },
+  "projects": {
+    "C:\\Source\\Maku Liseleje\\Backend\\Database\\Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\Maku Liseleje\\Backend\\Database\\Database.csproj",
+        "projectName": "Database",
+        "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Database\\Database.csproj",
+        "packagesPath": "C:\\Users\\AOkur\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\Maku Liseleje\\Backend\\Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AOkur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Source\\Maku Liseleje\\Backend\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Domain\\Domain.csproj"
+              },
+              "C:\\Source\\Maku Liseleje\\Backend\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Source\\Maku Liseleje\\Backend\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\Maku Liseleje\\Backend\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\AOkur\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\Maku Liseleje\\Backend\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AOkur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Source\\Maku Liseleje\\Backend\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Interfaces\\Interfaces.csproj"
+              },
+              "C:\\Source\\Maku Liseleje\\Backend\\Models\\Models.csproj": {
+                "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.18.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Source\\Maku Liseleje\\Backend\\Interfaces\\Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\Maku Liseleje\\Backend\\Interfaces\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\AOkur\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\Maku Liseleje\\Backend\\Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AOkur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Source\\Maku Liseleje\\Backend\\Models\\Models.csproj": {
+                "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Source\\Maku Liseleje\\Backend\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\Maku Liseleje\\Backend\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\AOkur\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\Maku Liseleje\\Backend\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AOkur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Source\\Maku Liseleje\\Backend\\Project Scarlet\\Application Interface\\Application Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\Maku Liseleje\\Backend\\Project Scarlet\\Application Interface\\Application Interface.csproj",
+        "projectName": "Application Interface",
+        "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Project Scarlet\\Application Interface\\Application Interface.csproj",
+        "packagesPath": "C:\\Users\\AOkur\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\Maku Liseleje\\Backend\\Project Scarlet\\Application Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AOkur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Source\\Maku Liseleje\\Backend\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Domain\\Domain.csproj"
+              },
+              "C:\\Source\\Maku Liseleje\\Backend\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Interfaces\\Interfaces.csproj"
+              },
+              "C:\\Source\\Maku Liseleje\\Backend\\Models\\Models.csproj": {
+                "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.18.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Source\\Maku Liseleje\\Backend\\Testing\\Scarlet.Console.UnitTesting\\Scarlet.Console.UnitTesting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\Maku Liseleje\\Backend\\Testing\\Scarlet.Console.UnitTesting\\Scarlet.Console.UnitTesting.csproj",
+        "projectName": "Scarlet.Console.UnitTesting",
+        "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Testing\\Scarlet.Console.UnitTesting\\Scarlet.Console.UnitTesting.csproj",
+        "packagesPath": "C:\\Users\\AOkur\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\Maku Liseleje\\Backend\\Testing\\Scarlet.Console.UnitTesting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AOkur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Source\\Maku Liseleje\\Backend\\Database\\Database.csproj": {
+                "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Database\\Database.csproj"
+              },
+              "C:\\Source\\Maku Liseleje\\Backend\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Domain\\Domain.csproj"
+              },
+              "C:\\Source\\Maku Liseleje\\Backend\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Interfaces\\Interfaces.csproj"
+              },
+              "C:\\Source\\Maku Liseleje\\Backend\\Models\\Models.csproj": {
+                "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Models\\Models.csproj"
+              },
+              "C:\\Source\\Maku Liseleje\\Backend\\Project Scarlet\\Application Interface\\Application Interface.csproj": {
+                "projectPath": "C:\\Source\\Maku Liseleje\\Backend\\Project Scarlet\\Application Interface\\Application Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.18.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
