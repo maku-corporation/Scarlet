@@ -1,4 +1,4 @@
-﻿using Domain.Entities;
+﻿using Domain.Entities.VOne;
 using Interfaces.Core;
 using Moq;
 
