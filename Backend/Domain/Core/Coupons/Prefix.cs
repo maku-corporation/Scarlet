@@ -1,8 +1,10 @@
-﻿namespace Domain.Core.Coupons
+﻿using Interfaces.Core;
+
+namespace Domain.Core.Coupons
 {
     public class Prefix : IPrefix
     {
-        private IList<string> _wordList = new List<string>()
+        private readonly IList<string> _wordList = new List<string>()
             {
                 "SHPX", "PHAG", "JNAX", "JNAT", "CVFF",
                 "PBPX", "FUVG", "GJNG", "GVGF", "SNEG",
@@ -17,7 +19,7 @@
                 "5ENC", "6BBC", "16GG", "26PX", "27BO",
             };
 
-        public string NextPrefix()
+        public virtual string NextPrefix()
         {
             Random random = new Random();
             int randomNumber = random.Next(minValue: 0, maxValue: _wordList.Count);

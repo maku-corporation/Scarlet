@@ -1,4 +1,4 @@
-﻿using Domain.Entities;
+﻿using Domain.Entities.VOne;
 using Interfaces.Core;
 
 namespace Domain.Core.Coupons
@@ -14,7 +14,7 @@ namespace Domain.Core.Coupons
             _prefix = prefix;
         }
 
-        public ICoupon GenerateCoupon()
+        public virtual ICoupon GenerateCoupon()
         {
             string prefix = _prefix.NextPrefix();
             string timeStamp = DateTime.Now.ToString("FFFFFFF").Substring(0, 4);

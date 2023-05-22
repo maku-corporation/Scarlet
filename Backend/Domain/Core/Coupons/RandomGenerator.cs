@@ -19,7 +19,7 @@ namespace Domain.Core.Coupons
         /// <returns>
         /// The <see cref="int"/>.
         /// </returns>
-        public int Next()
+        public virtual int Next()
         {
             var data = new byte[sizeof(int)];
             this.rng.GetBytes(data);
@@ -35,7 +35,7 @@ namespace Domain.Core.Coupons
         /// <returns>
         /// The <see cref="int"/>.
         /// </returns>
-        public int Next(int maxValue)
+        public virtual int Next(int maxValue)
         {
             return this.Next(0, maxValue);
         }
@@ -49,11 +49,11 @@ namespace Domain.Core.Coupons
         /// The <see cref="int" />.
         /// </returns>
         /// <exception cref="ArgumentOutOfRangeException">minValue cannot be greater than maxValue</exception>
-        public int Next(int minValue, int maxValue)
+        public virtual int Next(int minValue, int maxValue)
         {
             if (minValue > maxValue)
             {
-                throw new ArgumentOutOfRangeException("minValue", minValue, "minValue cannot be greater than maxValue");
+                throw new RandomGeneratorException("minValue", minValue, "minValue cannot be greater than maxValue");
             }
 
             return (int)Math.Floor((minValue + ((double)maxValue) - minValue) * this.NextDouble());
@@ -65,7 +65,7 @@ namespace Domain.Core.Coupons
         /// <returns>
         /// The <see cref="double"/>.
         /// </returns>
-        public double NextDouble()
+        public virtual double NextDouble()
         {
             var data = new byte[sizeof(uint)];
             this.rng.GetBytes(data);
@@ -79,7 +79,7 @@ namespace Domain.Core.Coupons
         /// <param name="data">
         /// The data.
         /// </param>
-        public void GetBytes(byte[] data)
+        public virtual void GetBytes(byte[] data)
         {
             this.rng.GetBytes(data);
         }
@@ -90,7 +90,7 @@ namespace Domain.Core.Coupons
         /// <param name="data">
         /// The data.
         /// </param>
-        public void GetNonZeroBytes(byte[] data)
+        public virtual void GetNonZeroBytes(byte[] data)
         {
             this.rng.GetNonZeroBytes(data);
         }

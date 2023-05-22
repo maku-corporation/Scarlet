@@ -14,9 +14,10 @@
           "MSTest.TestAdapter": "3.0.2",
           "MSTest.TestFramework": "3.0.2",
           "Microsoft.AspNetCore.OpenApi": "7.0.5",
-          "Microsoft.NET.Test.Sdk": "17.5.0",
+          "Microsoft.NET.Test.Sdk": "17.6.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.18.1",
           "Models": "1.0.0",
+          "Moq": "4.18.4",
           "RestSharp": "110.2.0",
           "Swashbuckle.AspNetCore": "6.5.0",
           "coverlet.collector": "3.2.0",
@@ -24,6 +25,17 @@
         },
         "runtime": {
           "Scarlet.Console.Testing.dll": {}
+        }
+      },
+      "Castle.Core/5.1.1": {
+        "dependencies": {
+          "System.Diagnostics.EventLog": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.1.0"
+          }
         }
       },
       "coverlet.collector/3.2.0": {},
@@ -38,11 +50,11 @@
           }
         }
       },
-      "Microsoft.CodeCoverage/17.5.0": {
+      "Microsoft.CodeCoverage/17.6.0": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "17.500.222.62001"
+            "fileVersion": "17.600.1123.17103"
           }
         }
       },
@@ -107,10 +119,10 @@
         }
       },
       "Microsoft.Extensions.Primitives/7.0.0": {},
-      "Microsoft.NET.Test.Sdk/17.5.0": {
+      "Microsoft.NET.Test.Sdk/17.6.0": {
         "dependencies": {
-          "Microsoft.CodeCoverage": "17.5.0",
-          "Microsoft.TestPlatform.TestHost": "17.5.0"
+          "Microsoft.CodeCoverage": "17.6.0",
+          "Microsoft.TestPlatform.TestHost": "17.6.0"
         }
       },
       "Microsoft.OpenApi/1.4.3": {
@@ -121,7 +133,7 @@
           }
         }
       },
-      "Microsoft.TestPlatform.ObjectModel/17.5.0": {
+      "Microsoft.TestPlatform.ObjectModel/17.6.0": {
         "dependencies": {
           "NuGet.Frameworks": "5.11.0",
           "System.Reflection.Metadata": "1.6.0"
@@ -221,9 +233,9 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/17.5.0": {
+      "Microsoft.TestPlatform.TestHost/17.6.0": {
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "17.5.0",
+          "Microsoft.TestPlatform.ObjectModel": "17.6.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
@@ -382,6 +394,17 @@
             "assetType": "runtime",
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Moq/4.18.4": {
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "runtime": {
+          "lib/net6.0/Moq.dll": {
+            "assemblyVersion": "4.18.0.0",
+            "fileVersion": "4.18.4.0"
           }
         }
       },
@@ -591,7 +614,7 @@
           "Domain": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.5",
-          "Microsoft.NET.Test.Sdk": "17.5.0",
+          "Microsoft.NET.Test.Sdk": "17.6.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.18.1",
           "Models": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
@@ -616,7 +639,7 @@
           "MSTest.TestAdapter": "3.0.2",
           "MSTest.TestFramework": "3.0.2",
           "Microsoft.AspNetCore.OpenApi": "7.0.5",
-          "Microsoft.NET.Test.Sdk": "17.5.0",
+          "Microsoft.NET.Test.Sdk": "17.6.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.18.1",
           "Models": "1.0.0",
           "RestSharp": "110.2.0",
@@ -656,6 +679,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Castle.Core/5.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
+      "path": "castle.core/5.1.1",
+      "hashPath": "castle.core.5.1.1.nupkg.sha512"
+    },
     "coverlet.collector/3.2.0": {
       "type": "package",
       "serviceable": true,
@@ -670,12 +700,12 @@
       "path": "microsoft.aspnetcore.openapi/7.0.5",
       "hashPath": "microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512"
     },
-    "Microsoft.CodeCoverage/17.5.0": {
+    "Microsoft.CodeCoverage/17.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6FQo0O6LKDqbCiIgVQhJAf810HSjFlOj7FunWaeOGDKxy8DAbpHzPk4SfBTXz9ytaaceuIIeR6hZgplt09m+ig==",
-      "path": "microsoft.codecoverage/17.5.0",
-      "hashPath": "microsoft.codecoverage.17.5.0.nupkg.sha512"
+      "sha512": "sha512-5v2GwzpR7JEuQUzupjx3zLwn2FutADW/weLzLt726DR3WXxsM+ICPoJG6pxuKFsumtZp890UrVuudTUhsE8Qyg==",
+      "path": "microsoft.codecoverage/17.6.0",
+      "hashPath": "microsoft.codecoverage.17.6.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/7.0.5": {
       "type": "package",
@@ -761,12 +791,12 @@
       "path": "microsoft.extensions.primitives/7.0.0",
       "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
     },
-    "Microsoft.NET.Test.Sdk/17.5.0": {
+    "Microsoft.NET.Test.Sdk/17.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IJ4eSPcsRbwbAZehh1M9KgejSy0u3d0wAdkJytfCh67zOaCl5U3ltruUEe15MqirdRqGmm/ngbjeaVeGapSZxg==",
-      "path": "microsoft.net.test.sdk/17.5.0",
-      "hashPath": "microsoft.net.test.sdk.17.5.0.nupkg.sha512"
+      "sha512": "sha512-tHyg4C6c89QvLv6Utz3xKlba4EeoyJyIz59Q1NrjRENV7gfGnSE6I+sYPIbVOzQttoo2zpHDgOK/p6Hw2OlD7A==",
+      "path": "microsoft.net.test.sdk/17.6.0",
+      "hashPath": "microsoft.net.test.sdk.17.6.0.nupkg.sha512"
     },
     "Microsoft.OpenApi/1.4.3": {
       "type": "package",
@@ -775,19 +805,19 @@
       "path": "microsoft.openapi/1.4.3",
       "hashPath": "microsoft.openapi.1.4.3.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.ObjectModel/17.5.0": {
+    "Microsoft.TestPlatform.ObjectModel/17.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QwiBJcC/oEA1kojOaB0uPWOIo4i6BYuTBBYJVhUvmXkyYqZ2Ut/VZfgi+enf8LF8J4sjO98oRRFt39MiRorcIw==",
-      "path": "microsoft.testplatform.objectmodel/17.5.0",
-      "hashPath": "microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512"
+      "sha512": "sha512-AA/rrf5zwC5/OBLEOajkhjbVTM3SvxRXy8kcQ8e4mJKojbyZvqqhpfNg362N9vXU94DLg9NUTFOAnoYVT0pTJw==",
+      "path": "microsoft.testplatform.objectmodel/17.6.0",
+      "hashPath": "microsoft.testplatform.objectmodel.17.6.0.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.TestHost/17.5.0": {
+    "Microsoft.TestPlatform.TestHost/17.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-X86aikwp9d4SDcBChwzQYZihTPGEtMdDk+9t64emAl7N0Tq+OmlLAoW+Rs+2FB2k6QdUicSlT4QLO2xABRokaw==",
-      "path": "microsoft.testplatform.testhost/17.5.0",
-      "hashPath": "microsoft.testplatform.testhost.17.5.0.nupkg.sha512"
+      "sha512": "sha512-7YdgUcIeCPVKLC7n7LNKDiEHWc7z3brkkYPdUbDnFsvf6WvY9UfzS0VSUJ8P2NgN0CDSD223GCJFSjSBLZRqOQ==",
+      "path": "microsoft.testplatform.testhost/17.6.0",
+      "hashPath": "microsoft.testplatform.testhost.17.6.0.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.18.1": {
       "type": "package",
@@ -802,6 +832,13 @@
       "sha512": "sha512-2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
       "path": "microsoft.win32.systemevents/7.0.0",
       "hashPath": "microsoft.win32.systemevents.7.0.0.nupkg.sha512"
+    },
+    "Moq/4.18.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IOo+W51+7Afnb0noltJrKxPBSfsgMzTKCw+Re5AMx8l/vBbAbMDOynLik4+lBYIWDJSO0uV7Zdqt7cNb6RZZ+A==",
+      "path": "moq/4.18.4",
+      "hashPath": "moq.4.18.4.nupkg.sha512"
     },
     "MSTest.TestAdapter/3.0.2": {
       "type": "package",

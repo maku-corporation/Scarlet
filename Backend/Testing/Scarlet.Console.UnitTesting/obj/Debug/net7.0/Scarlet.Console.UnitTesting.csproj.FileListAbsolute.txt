@@ -146,3 +146,5 @@ C:\Source\Maku Liseleje\Backend\Testing\Scarlet.Console.UnitTesting\obj\Debug\ne
 C:\Source\Maku Liseleje\Backend\Testing\Scarlet.Console.UnitTesting\obj\Debug\net7.0\Scarlet.Console.UnitTesting.pdb
 C:\Source\Maku Liseleje\Backend\Testing\Scarlet.Console.UnitTesting\obj\Debug\net7.0\Scarlet.Console.UnitTesting.genruntimeconfig.cache
 C:\Source\Maku Liseleje\Backend\Testing\Scarlet.Console.UnitTesting\obj\Debug\net7.0\ref\Scarlet.Console.UnitTesting.dll
+C:\Source\Maku Liseleje\Backend\Testing\Scarlet.Console.UnitTesting\bin\Debug\net7.0\Castle.Core.dll
+C:\Source\Maku Liseleje\Backend\Testing\Scarlet.Console.UnitTesting\bin\Debug\net7.0\Moq.dll

@@ -1,4 +1,5 @@
 ﻿using Interfaces.Core;
+using Interfaces.Persistence;
 
 namespace Domain.Core.Coupons
 {
@@ -11,7 +12,7 @@ namespace Domain.Core.Coupons
             _generator = generator;
         }
         
-        public ICoupon Generate()
+        public virtual ICoupon? Generate()
         {
             return _generator.GenerateCoupon();
         }

@@ -8,6 +8,6 @@ namespace Interfaces.Core
 {
     public interface ICouponGenerator
     {
-        ICoupon Generate();
+        ICoupon? Generate();
     }
 }

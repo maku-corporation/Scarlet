@@ -1,24 +1,25 @@
 ﻿using Interfaces.Core;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Interfaces.Persistence;
 
 namespace Domain.Core.Coupons
 {
     public class CouponValidator : ICouponValidator
     {
-        private readonly IValidator _validator;
+        private readonly IGenericRepository<ICoupon> _couponsRepository;
 
-        public CouponValidator(IValidator validator)
+        public CouponValidator(IGenericRepository<ICoupon> couponsRepository)
         {
-            _validator = validator;
+            _couponsRepository = couponsRepository;
         }
 
-        public bool Validate(ICoupon coupon)
+        public virtual bool Validate(ICoupon coupon)
         {
-            return _validator.Validate(coupon);
+            var isValid = _couponsRepository
+                .Query(e => e.Code.ToLowerInvariant()
+                .Equals(coupon.Code.ToLowerInvariant()))
+                .FirstOrDefault();
+
+            return isValid == null ? false : true;
         }
     }
 }

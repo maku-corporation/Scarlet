@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Domain.Entities;
+using Interfaces.Persistence;
+using Domain.Entities.VOne;
+using Domain.Filtering;
 
 namespace Application_Interface.Controllers
 {
@@ -7,35 +9,45 @@ namespace Application_Interface.Controllers
     [Route("[controller]")]
     public class VoucherController : ControllerBase
     {
-        private readonly ILogger<OrderController> _logger;
+        private readonly ILogger<VoucherController> _logger;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public VoucherController(ILogger<OrderController> logger)
+        public VoucherController(
+            ILogger<VoucherController> logger,
+            IUnitOfWork unitOfWork)
         {
-            _logger = logger;            
+            _logger = logger;
+            _unitOfWork = unitOfWork;
         }
 
-        [HttpGet("vouchers")]
-        public async Task<IList<Coupon>> GetVouchers()
+        [HttpGet()]
+        public async Task<IEnumerable<Coupon?>> GetVouchers()
         {
             _logger.Log(LogLevel.Information, "Returning all vouchers...");
 
-            return new List<Coupon>();
+            var coupons = await _unitOfWork.Repository().GetAllAsync<Coupon>();
+
+            return coupons;
         }
 
-        [HttpGet("voucher")]
-        public async Task<Coupon> GetVoucher(string idenfitier)
+        [HttpGet("searchById/{id}")]
+        public async Task<Coupon?> GetVoucher(int id)
         {
-            _logger.Log(LogLevel.Information, "Returning a specific voucher with ID: {0}...", idenfitier);
+            _logger.Log(LogLevel.Information, "Returning a specific voucher with ID: {0}...", id);
 
-            return new Coupon();
+            var coupon = await _unitOfWork.Repository().GetByIdAsync<Coupon>(id);
+
+            return coupon;
         }
 
-        [HttpPost("voucher")]
-        public async Task<Coupon> CreateVoucher(Customer customer)
+        [HttpGet("searchByCode/{code}")]
+        public async Task<Coupon?> GetVoucher(string code)
         {
-            _logger.Log(LogLevel.Information, "Creating a new voucher...");
+            _logger.Log(LogLevel.Information, "Returning a specific voucher with ID: {0}...", code);
 
-            return new Coupon();
+            var coupons = await _unitOfWork.Repository().GetAllAsync<Coupon>();
+
+            return CouponFilter.FilterByCode(code, ref coupons);
         }
     }
 }
